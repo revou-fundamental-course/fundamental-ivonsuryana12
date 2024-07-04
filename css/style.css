@@ -1,0 +1,304 @@
+/* Ini CSS */
+
+main {
+    padding: 32px;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon {
+   height: 50px;
+    width: 50px;
+
+    background-image: url(https://picsum.photos/500/500);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+nav>a{
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid;
+}
+
+.banner-container {
+    height: 350px;
+    width: 100%;
+    border: 1px solid;
+}
+
+.profile-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile-item{
+    text-align: center;
+    flex: 1;
+    text-align: -webkit-center;
+}
+
+.profile-icon {
+    height: 50px;
+     width: 50px;
+
+    background-size: cover;
+    border-radius: 50%;
+ }
+
+ .profile-1 {
+    background-image: url(../assets/Screenshot\ 2024-06-29\ 204620.png);
+ }
+
+ .profile-2 {
+    background-image: url(../assets/2.png);
+ }
+
+ .profile-3 {
+    background-image: url(../assets/3.png);
+ }
+
+.devider {
+    flex: 2;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 400px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  .portfolio-item {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    text-align: center;
+    padding-top: 30%;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+td {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  td, th {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+  }
+
+  tr {
+      margin-bottom: 10px;
+      display: block;
+  }
+
+  tr td:first-child {
+      display: block;
+      width: 100%;
+  }
+
+  tr th:first-child {
+      display: block;
+      width: 100%;
+  }
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+td {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  td, th {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+  }
+
+  tr {
+      margin-bottom: 10px;
+      display: block;
+  }
+
+  tr td:first-child {
+      display: block;
+      width: 100%;
+  }
+
+  tr th:first-child {
+      display: block;
+      width: 100%;
+  }
+}
+
+/* Styles for portfolio overlay */
+.portfolio-item {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio-overlay {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  text-align: center;
+  padding-top: 30%;
+}
+
+/* Styles for the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.footer-section {
+  margin: 20px;
+}
+
+.footer-section h2 {
+  margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul, .footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footer-section.contact a {
+  color: #f4f4f4;
+}
+
+.footer-section.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styling for footer */
+@media (max-width: 600px) {
+  .footer-content {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-section {
+      width: 100%;
+      text-align: center;
+  }
+}

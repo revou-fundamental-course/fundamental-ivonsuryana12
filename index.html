@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Ivon Suryana</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <!-- ini header nav -->
+    <header class="nav-container">
+        <div class="logo-icon"></div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#our-profile">Our Profile</a>
+            <a href="#portfolio">Portofolio</a>
+            <a href="#message-us">Message Us</a>
+        </nav>
+    </header>
+
+    <hr />
+
+    <!-- Ini Home Content -->
+    <section id="home">
+        <header>
+            <h1>Hi User, Welcome To My Website</h1>
+        </header>
+
+        <article>
+            <p>Ini Adalah Tugas Mini Coding</p>
+            <div class="banner-container"></div>
+        </article>
+    </section>
+
+    <hr />
+
+    <!-- Ini Our Profile Content -->
+    <section id="our-profile">
+        <header>
+            <h1>Our Profile</h1>
+        </header>
+
+        <article class="profile-content">
+            <div class="profile-item">
+                <div class="profile-icon profile-1"></div>
+                <p>Profile 1</p>
+            </div>
+
+            <div class="profile-item">
+                <div class="profile-icon profile-2"></div>
+                <p>Profile 2</p>
+            </div>
+
+            <div class="profile-item">
+                <div class="profile-icon profile-3"></div>
+                <p>Profile 3</p>
+            </div>
+
+            <div class="devider"></div>
+        </article>
+    </section>
+
+    <!-- Ini Portofolio Content -->
+    <section id="portfolio">
+        <!-- Content for portfolio goes here -->
+    </section>
+
+    <hr />
+
+    <!-- Ini Message Us Content -->
+    <section id="message-us" style="padding: 20px;">
+        <div class="row">
+            <div class="column" style="padding: 20px;">
+                <div style="padding: 10px;">
+                    <h1>Message Us</h1>
+                    <form id="messageForm">
+                        <table>
+                            <tr>
+                                <td><label for="name">Nama:</label></td>
+                                <td><input type="text" id="name" name="name" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="Tanggal Lahir">Tanggal Lahir:</label></td>
+                                <td><input type="date" id="Tanggal Lahir" name="Tanggal Lahir" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="message">Pesan:</label></td>
+                                <td><textarea id="message" name="message" rows="4" cols="50" required></textarea></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" style="text-align: right;">
+                                    <input type="submit" value="Kirim">
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+            <div class="column" style="padding: 20px;">
+                <div class="portfolio-item">
+                    <img src="portfolio2.jpg" alt="Proyek 2">
+                    <div class="portfolio-overlay">
+                        <h3>Proyek 2</h3>
+                        <p>Deskripsi singkat proyek 2.</p>
+                    </div>
+                </div>
+                <div id="project-2-details" style="margin-top: 20px;">
+                    <h2>Detail Portofolio</h2>
+                    <table id="project-table" class="project-table">
+                        <thead>
+                            <tr>
+                                <th>Nama</th>
+                                <th>Tanggal Lahir</th>
+                                <th>Pesan</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Baris data akan ditambahkan di sini -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr />
+
+    <!-- Ini Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2>About Us</h2>
+                <p>Kami adalah tim yang berdedikasi untuk menyediakan layanan terbaik bagi pelanggan kami.</p>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#our-profile">Our Profile</a></li>
+                    <li><a href="#portfolio">Portofolio</a></li>
+                    <li><a href="#message-us">Message Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact Us</h2>
+                <p>Email: <a href="mailto:info@ivonsuryana.com">info@ivonsuryana.com</a></p>
+                <p>Phone: +62 812-3456-7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Ivon Suryana. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
